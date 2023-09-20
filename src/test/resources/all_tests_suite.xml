@@ -10,11 +10,11 @@
             <parameter name="browser" value="FIREFOX"/>
         <classes>
             <class name="tests.CalendarTest"/>
-<!--            <class name="tests.LoginTests"/>-->
-<!--            <class name="tests.LoadingFilesTests"/>-->
-<!--            <class name="tests.QuickTransferTests"/>-->
-<!--            <class name="tests.TestBase"/>-->
-<!--            <class name="tests.TopUpPhoneTest"/>-->
+            <class name="tests.LoginTests"/>
+            <class name="tests.LoadingFilesTests"/>
+            <class name="tests.QuickTransferTests"/>
+            <class name="tests.TestBase"/>
+            <class name="tests.TopUpPhoneTest"/>
         </classes>
     </test>
 
