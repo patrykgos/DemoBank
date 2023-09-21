@@ -11,6 +11,7 @@ public class CalendarTest extends TestBase {
     @Test
     public void whetherGivenValueToCalendarWindowEqualToDateFieldOnWebsite() {
         LocalDate expectedDate = LocalDate.of(2023, 10, 15);
+        LocalDate wrongDate = LocalDate.of(2023, 10, 10);
 
         LoginPage loginPage = new LoginPage();
         String stringDate = loginPage.loginToBank()
@@ -21,6 +22,6 @@ public class CalendarTest extends TestBase {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
         LocalDate actualDate = LocalDate.parse(stringDate, formatter);
-        assertEquals(actualDate, expectedDate);
+        assertEquals(actualDate, wrongDate);
     }
 }
