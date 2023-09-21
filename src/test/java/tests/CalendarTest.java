@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class CalendarTest extends TestBase {
-
+    
     @Test
     public void whetherGivenValueToCalendarWindowEqualToDateFieldOnWebsite() {
         LocalDate expectedDate = LocalDate.of(2023, 10, 15);

@@ -14,7 +14,6 @@ public class TestBase {
     public static final String APPLICATION_URL = "https://demo-bank.vercel.app/";
 
     @Step("Preparation of WebDriver")
-    @Parameters("browser")
     @BeforeMethod
     public void beforeTest(@Optional BrowserType browserType) {
         DriverManager.setWebDriver(browserType);
